@@ -977,8 +977,8 @@
 }
 .button-size-min {
 	display: inline;
-	width: auto;
-	height: auto;
+/*	width: auto;
+	height: auto;  */
 	padding: calc(2 * var(--unit)) calc(4 * var(--unit));
 }
 .button-size-max {
