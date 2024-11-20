@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+#code {
+  flex: 1 1 300px; /* Minimum width of 300px */
+  max-width: 50%; /* Maximum width of 50% of the screen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+/* Ensure the image doesn't overflow */
+#code img {
+  max-width: 100%;
+  height: auto;
+}
