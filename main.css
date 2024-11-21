@@ -37,6 +37,18 @@
   height: auto;
 }
 
-.pagination .active {
-  font-size: 3em;
+.part1 .pagination li a {
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.part1 .pagination li a[aria-current="page"] {
+  font-weight: bold;
+  color: white;
+  background-color: #007bff;
+  border-color: #007bff;
 }
