@@ -10,7 +10,7 @@ function next() {
 function previous() {
   let newPart = Number(actualPart) - 1;
   if (newPart == 0) {
-    window.location.href = `index.html`;
+    window.location.href = `/`;
   } else {
     window.location.href = `part${newPart}.html`;
   }
